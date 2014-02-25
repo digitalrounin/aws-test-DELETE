@@ -1,10 +1,10 @@
 #!/bin/bash
 
-rm -Rfv ./build
-mkdir -v ./build
+target_tar="$1"
 
-version=$(date +%Y%m%d%H%M%S)
+rm -Rfv ./target
+mkdir -v ./target
 
-tar -zcvf "build/test-app-$version.tgz" "./src/"
+tar -zcvf "target/$target_tar" "./src/"
 
 

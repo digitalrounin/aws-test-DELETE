@@ -62,3 +62,4 @@ tags
 #snippets/
 spell/
 /build/
+/target/
