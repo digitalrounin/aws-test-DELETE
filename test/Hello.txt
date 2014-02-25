@@ -1,0 +1,3 @@
+Simple test project to try out github jenkins integration.
+
+To be deleted.
